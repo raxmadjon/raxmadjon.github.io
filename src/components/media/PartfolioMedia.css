@@ -1,0 +1,15 @@
+@media(max-width:1085px) {
+    .containe {
+        padding: 100px 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(107, 107, 107);
+    }
+
+    .img {
+        max-width: 700px;
+        border-radius: 50px;
+    }
+}
