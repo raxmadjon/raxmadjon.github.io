@@ -6,6 +6,7 @@ import kiyamotars from "./imgpart/kiyamotars.png"
 const Partfolio = () => {
     return (
         <div className="containe">
+            <div className="bigtext">Partfolio</div>
             <img src={danisnovik} alt="" className=" img img1" />
             <img src={burningman} alt="" className=" img img2" />
             <img src={dizynvorska} alt="" className=" img img3" />

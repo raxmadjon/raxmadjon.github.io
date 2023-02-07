@@ -55,21 +55,21 @@ nav {
 
 }
 
-.input {
-  width: 250px;
-  height: 50px;
-  border: none;
-  margin: 20px;
-  padding: 5px 20px;
 
-}
 
 .contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 100px 40px ;
 }
 
+.input{
+  text-decoration: none;
+  color: #151515;
+  font-family: Rouge;
+  font-size: 60px;
+  
+}
 
 
 .menu {
@@ -88,22 +88,13 @@ nav {
   text-decoration: none;
   color: rgb(188, 188, 188);
 }
-
-.contact3 {
-  border: none;
-  padding: 5px 360px 100px 10px;
-  margin: 20px 0;
-}
-
-.button:active {
-  background-color: #151515;
-  color: #fff;
-}
-
 .mains {
   flex-direction: column;
   background-color: rgb(244, 242, 242);
 }
+.imginst{width: 60px;}
+.watsapp{width: 60px;}
+.telegram{width: 60px;}
 
 .button {
   padding: 25px 200px;
@@ -121,12 +112,9 @@ nav {
 }
 
 .contai {
-  padding: 100px 150px ;
+  padding: 35px 10px ;
   display: flex;
   justify-content: center;
-  background-color: rgb(244 242, 242);
-
-  height: 58vh;
 }
 
 .containe {
@@ -153,7 +141,32 @@ nav {
   border-radius: 50px;
 }
 
+.bigtext{
+  font-size: 80px;
+  font-family: Rouge;
+  line-height: 100px;
+}
+.Skills{
+  flex-direction: column;
+  padding: 20px 200px ;
+}
+.bolm{
+  width: 1000px;
+  display: flex;
+  gap: 100px;
+}
+.two{
+  margin: 100px 0 0 0;
+}
+.skill{
+  width: 200px;
+  height: 200px;
 
+}
+.html{
+  width: 150px;
+  height: 200px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
