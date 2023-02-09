@@ -205,9 +205,10 @@
     nav {
         max-width: 250px;
         font-size: 20px;
-        display: flex;
+        display: none;
         text-align: center;
         gap: 9px;
+
     }
 
     .myimg {
@@ -228,13 +229,7 @@
         justify-content: space-around;
     }
 
-    nav {
-        max-width: 250px;
-        font-size: 20px;
-        display: flex;
-        text-align: center;
-        gap: 9px;
-    }
+    
 
     .myimg {
         max-width: 200px;
@@ -261,13 +256,7 @@
         justify-content: space-around;
     }
 
-    nav {
-        max-width: 250px;
-        font-size: 20px;
-        display: flex;
-        text-align: center;
-        gap: 9px;
-    }
+
 
     .myimg {
         max-width: 200px;
@@ -276,6 +265,18 @@
     .bigmytext {
         font-size: 38px;
     }
+}
+
+@media(max-width:414px) {
+    header {
+        background-color: #151515;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
 }
 
 @media(max-width:402px) {
@@ -287,20 +288,14 @@
         justify-content: space-around;
     }
 
-    nav {
-        max-width: 250px;
-        font-size: 20px;
-        display: flex;
-        text-align: center;
-        gap: 9px;
-    }
+    
 
     .bigmytext {
         font-size: 34px;
     }
 
     .container {
-        padding: 20px 0 0 0;
+        padding: 10px 0 0 0;
         display: flex;
         gap: 10px;
         flex-direction: column;

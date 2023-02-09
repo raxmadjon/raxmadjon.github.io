@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import "./media/HomeMedia.css"
 import "./media/PartfolioMedia.css"
 import "./media/ContactMedia.css"
@@ -15,10 +15,10 @@ const Home = () => {
         <header>
           <a href="/menu" className="nav a2"><img href="/menu" className="imgronan" src={brand} /></a>
           <nav>
-            <a href="/" className="nav a1">Home</a>
-            <a href={"/skills"} className="nav a2">Skills</a>
-            <a href={"/partfolio"} className="nav a3">Partfolio</a>
-            <a href={"/contact"} className="nav a4">Contact</a>
+            <NavLink to="/" href="/" className="nav a1">Home</NavLink>
+            <NavLink to="/skills" className="nav a2">Skills</NavLink>
+            <NavLink to="/partfolio" className="nav a3">Partfolio</NavLink>
+            <NavLink to="/contact" className="nav a4">Contact</NavLink>
           </nav>
           
         </header>

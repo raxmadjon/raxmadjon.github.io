@@ -6,9 +6,9 @@ export function Contacts()  {
         <div className="contai">
             <main className="mains">
                 <div className="contact">
-                        <a href="" className="input contact1"> <img src={image2} alt="" className="telegram" /> Telegram  Raxmadjon</a>
+                        <a href="https://xn--80affa3aj0al.xn--80asehdb/" className="input contact1"> <img src={image2} alt="" className="telegram" /> Telegram  Raxmadjon</a>
                         <a href="https://www.instagram.com/" className="input contact2"> <img className="imginst" src={image1} alt="" /> instagram ro.nan9720</a>
-                        <a href="" className="input contact3"> <img src={image3} alt="" className="watsapp" /> Whatsapp Ronan</a>
+                        <a href="" className="input contact3"> <img src={image3} alt="" className="watsapp" /> Tel : +998 (90) 832 06 21</a>
                 </div>
             </main>
         </div>

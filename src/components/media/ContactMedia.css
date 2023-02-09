@@ -127,6 +127,7 @@
     margin: 20px 0;
   }
 }
+
 @media(max-width:371px ){
   .button {
     padding: 25px 90px;
