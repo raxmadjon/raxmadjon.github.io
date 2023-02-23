@@ -29,6 +29,7 @@ const Home = () => {
         <Route path="/skills" element={<Skiils/>} />
         <Route path="/contact" element={<Contacts />} />
         <Route path="/partfolio" element={<Partfolio />} />
+        <Route path="*" element={<h1>404 Page Not Found</h1>} />
       </Routes>
     </div>
   );
